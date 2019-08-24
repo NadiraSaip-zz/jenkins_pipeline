@@ -4,7 +4,6 @@ node {
     # description: 'please input your name', 
     # name: 'NAME', trim: true)]), pipelineTriggers([cron('* * * * *')])])
     git 'https://github.com/NadiraSaip/jenkins_testrepo.git'
-    sh "echo Hello ${NAME}"
     }
 }
 
